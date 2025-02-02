@@ -1,6 +1,10 @@
 <h1>Node.js Puppeter Web Scraper</h1>
 
 <p>
+The Puppeteer library lets you control a real web browser programmatically, which is essential for scraping modern websites that use JavaScript.  It executes the JavaScript, interacts with the page (clicks, forms, etc.), and waits for content to load, allowing you to scrape data that simple tools can't access.
+</p>
+
+<p>
   This program scrapes a website I was interested in gathering data from which contained the following structure of html:
 </p>
 
@@ -15,7 +19,7 @@
 ```
 
 <p>
-  The table has options to present a different number of items ranging from '10' per page to 'All' items
+  The table has options to present a different number of items ranging from '10' per page to 'All' items, so it selects the 'All' option to get every entry at once.
 </p>
 
 ```
